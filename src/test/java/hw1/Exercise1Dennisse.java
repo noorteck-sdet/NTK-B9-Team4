@@ -27,6 +27,16 @@ public class Exercise1Dennisse {
 		
 		//enter value to password field
 		passwordField.sendKeys("Ntk-orange!admin.123");
+		
+
+		WebElement LoginButton = driver.findElement(By.tagName("button"));
+		LoginButton.click();
+		
+		
+		//retrieve the text for the element
+		String header = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[1]/span/h6")).getText();
+		
+		System.out.println("Text: "+ header);
 
 		
 		Thread.sleep(3000);
