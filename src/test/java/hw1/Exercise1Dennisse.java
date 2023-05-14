@@ -13,10 +13,10 @@ public class Exercise1Dennisse {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\denni\\Desktop\\Selenium- B9\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
-		Thread.sleep(3000);
-		driver.manage().window().maximize();
-		
+
 		driver.get ("https://ntkhr.noortecktraining.com/web/index.php/auth/login");
+		Thread.sleep(3000);
+		
 		WebElement userNameField = driver.findElement(By.name("username"));
 		Thread.sleep(3000);
 		
