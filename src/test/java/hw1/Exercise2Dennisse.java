@@ -87,7 +87,7 @@ public class Exercise2Dennisse {
 			System.out.println("TESTCASE PASSED");
 			}
 		else 
-			System.out.println("Test case failed");
+			System.out.println("TESTCASE FAILED");
 
 				
 		Thread.sleep(3000);
