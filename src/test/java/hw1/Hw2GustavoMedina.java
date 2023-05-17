@@ -134,7 +134,7 @@ public class Hw2GustavoMedina {
     	 Thread.sleep(3000);
     	 
     	 
-    	 driver.quit();
+    	// driver.quit();
     	 }
     	
 

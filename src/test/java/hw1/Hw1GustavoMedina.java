@@ -42,10 +42,14 @@ public class Hw1GustavoMedina {
 				driver.manage().window().maximize();
 				Thread.sleep(3000);
 				
-				String header = driver.findElement(By.xpath("//span[@class='oxd-topbar-header-breadcrumb']")).getText();
+			
+				//String header = driver.findElement(By.xpath("//span[@class='oxd-topbar-header-breadcrumb']")).getText();
+				
+				String header = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[1]/span/h6")).getText();
 				System.out.println("Page Header:"+ header);
-				driver.quit();		
+				//driver.quit();		
 		
+				//*[@id="app"]/div[1]/div[1]/header/div[1]/div[1]/span/h6
 		
 	}
 
